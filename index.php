@@ -1,3 +1,4 @@
+<?php include("functions.php");?>
 <html>
 
 <head>
@@ -21,8 +22,8 @@
 
     for($i=0; $i<$slots; $i++) {         
         ?>
-        <div class="slot">
-            <img src="blob/<?php echo rand(1, 13);?>.svg" style="fill: <?php echo $colors[rand(0,14)];?> !important; background: <?php echo $colors[rand(0,14)];?>;" />
+        <div class="slot" style="background: <?php echo $colors[rand(0,14)];?>">
+            <?php echo makeBlob($colors[rand(0,14)]);?>
         </div>
         <?php
     } 
