@@ -11,5 +11,7 @@ These are my experiments in generative art using simple PHP, HTML and CSS.
 
 ### Example outputs
 ![Blobby squares 1](https://github.com/flexewebs/generativeart/blob/main/art/v1/1.png)
+---
 ![Blobby squares 2](https://github.com/flexewebs/generativeart/blob/main/art/v1/2.png)
+---
 ![Blobby squares 3](https://github.com/flexewebs/generativeart/blob/main/art/v1/3.png)
