@@ -59,3 +59,11 @@ Same as version 6, but with each blob being a different colour from background.
 
 ### Example outputs
 <img src="https://github.com/flexewebs/generativeart/blob/main/art/v7/1.png" width="33%" title="Different colour blog to square" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v7/2.png" width="33%" title="Different colour blog to square" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v7/3.png" width="33%" title="Different colour blog to square" />
+
+## Version 8 - Changed location of the blob
+
+### Rules: 
+Same as version 7, but changed location of the blob, still in the same position on each square.
+
+### Example outputs
+<img src="https://github.com/flexewebs/generativeart/blob/main/art/v8/1.png" width="33%" title="Different colour blog to square" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v8/2.png" width="33%" title="Different colour blog to square" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v8/3.png" width="33%" title="Different colour blog to square" />
