@@ -35,3 +35,11 @@ Same as version 3, but with same colour blob.
 
 ### Example outputs
 <img src="https://github.com/flexewebs/generativeart/blob/main/art/v4/1.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v4/2.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v4/3.png" width="33%" title="Buggy blobby squares" />
+
+## Version 5 - Single colour fixed blob with colour scheme squares
+
+### Rules: 
+Same as version 4, but with same colour blob without a bug.
+
+### Example outputs
+<img src="https://github.com/flexewebs/generativeart/blob/main/art/v5/1.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v5/2.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v5/3.png" width="33%" title="Buggy blobby squares" />
