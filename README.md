@@ -43,3 +43,11 @@ Same as version 4, but with same colour blob without a bug.
 
 ### Example outputs
 <img src="https://github.com/flexewebs/generativeart/blob/main/art/v5/1.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v5/2.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v5/3.png" width="33%" title="Buggy blobby squares" />
+
+## Version 6 - All elements on colours scheme with single blog shape
+
+### Rules: 
+Same as version 5, but with on colour scheme same shape blob.
+
+### Example outputs
+<img src="https://github.com/flexewebs/generativeart/blob/main/art/v6/1.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v6/2.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v6/3.png" width="33%" title="Buggy blobby squares" />
