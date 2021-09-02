@@ -51,3 +51,11 @@ Same as version 5, but with on colour scheme same shape blob.
 
 ### Example outputs
 <img src="https://github.com/flexewebs/generativeart/blob/main/art/v6/1.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v6/2.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v6/3.png" width="33%" title="Buggy blobby squares" />
+
+## Version 7 - Each blog different colour from square
+
+### Rules: 
+Same as version 6, but with each blob being a different colour from background.
+
+### Example outputs
+<img src="https://github.com/flexewebs/generativeart/blob/main/art/v7/1.png" width="33%" title="Different colour blog to square" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v7/2.png" width="33%" title="Different colour blog to square" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v7/3.png" width="33%" title="Different colour blog to square" />

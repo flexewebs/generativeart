@@ -22,11 +22,21 @@
     // Number of slots
     $slots = 100; 
     $slotsInRow = 10;
+    $totalColours = count($colors)-1;
 
-    for($i=0; $i<$slots; $i++) {         
+    for($i=0; $i<$slots; $i++) {   
+        $squareColour = $colors[rand(0,$totalColours)];
+        $blobColour = $colors[rand(0,$totalColours)];
+
+        // Make blob a different colour from square
+        if($squareColour==$blobColour) {            
+            while($squareColour==$blobColour) {
+                $blobColour = $colors[rand(0,$totalColours)];                
+            }
+        }
         ?>
-        <div class="slot" style="background: <?php echo $colors[rand(0,count($colors))];?>">
-            <?php echo makeBlob($colors[rand(0,count($colors))]);?>
+        <div class="slot" style="background: <?php echo $squareColour;?>">
+            <?php echo makeBlob($blobColour);?>
         </div>
         <?php
     } 
