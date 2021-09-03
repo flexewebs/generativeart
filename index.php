@@ -14,7 +14,8 @@
     <?php 
     
     // Colours to use 
-    $colors = array("#C90C0C", "#171504", "#FFCE1F"); // Red, black, yellow
+    $colors = array("#C90C0C", "#171504"); // Red, black
+    //$colors = array("#C90C0C", "#171504", "#FFCE1F"); // Red, black, yellow
     //$colors = array("#C90C0C", "#171504", "#FFCE1F", "#FFF"); // Red, black, yellow, white
     //$colors = array("#384085", "#04A7D0", "#A6D2C8", "#F8EDE0", "#FEF6E3", "#FFCBBF"); // Mixed pallette
     //$colors = array("#405CD6", "#4D81DA", "#5BA8E1", "#65C3E5", "#6ACDEB"); // All blue

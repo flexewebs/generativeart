@@ -74,4 +74,12 @@ Same as version 7, but changed location of the blob, still in the same position 
 Same as version 8, but changing location of the blob semi randomly to create unusual patterns.
 
 ### Example outputs
-<img src="https://github.com/flexewebs/generativeart/blob/main/art/v9/1.png" width="33%" title="Different colour blog to square" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v9/2.png" width="33%" title="Different colour blog to square" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v9/3.png" width="33%" title="Different colour blog to square" />
+<img src="https://github.com/flexewebs/generativeart/blob/main/art/v9/1.png" width="33%" title="Semi random blob placement" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v9/2.png" width="33%" title="Semi random blob placement" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v9/3.png" width="33%" title="Semi random blob placement" />
+
+## Version 10 - Reduced to two colours
+
+### Rules: 
+Same as version 9, but reduced colours down to 2 only to see what the effect is like. 
+
+### Example outputs
+<img src="https://github.com/flexewebs/generativeart/blob/main/art/v10/1.png" width="33%" title="Two colours" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v10/2.png" width="33%" title="Two colours" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v10/3.png" width="33%" title="Two colours" />
