@@ -83,3 +83,11 @@ Same as version 9, but reduced colours down to 2 only to see what the effect is 
 
 ### Example outputs
 <img src="https://github.com/flexewebs/generativeart/blob/main/art/v10/1.png" width="33%" title="Two colours" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v10/2.png" width="33%" title="Two colours" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v10/3.png" width="33%" title="Two colours" />
+
+## Version 11 - Bringing in circles
+
+### Rules: 
+Now working with two shapes for background slots. Random circle is introduced into the backgrounds.
+
+### Example outputs
+<img src="https://github.com/flexewebs/generativeart/blob/main/art/v11/1.png" width="33%" title="Two colours" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v11/2.png" width="33%" title="Two colours" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v11/3.png" width="33%" title="Two colours" />
