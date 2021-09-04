@@ -19,7 +19,7 @@ Same as above. Contains an unintended error in the SVG blob function. Creates a 
 ## Version 3 - Buggy blobby squares with colour schemes
 Same as version 2, but with colour schemes 
 
-<img src="https://github.com/flexewebs/generativeart/blob/main/art/v3/1.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v3/2.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v3/3.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v3/4.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v3/5.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v3/6.png" width="33%" title="Buggy blobby squares" />
+<img src="https://github.com/flexewebs/generativeart/blob/main/art/v3/1.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v3/3.png" width="33%" title="Buggy blobby squares" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v3/5.png" width="33%" title="Buggy blobby squares" />
 
 ## Version 4 - Buggy single colour blobs with colour scheme squares
 Same as version 3, but with same colour blob.
