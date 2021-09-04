@@ -98,4 +98,4 @@ Now working with two shapes for background slots. Random circle is introduced in
 Bringing circles in on every second step. 
 
 ### Example outputs
-<img src="https://github.com/flexewebs/generativeart/blob/main/art/v12/1.png" width="33%" title="Two colours" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v12/2.png" width="33%" title="Two colours" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v13/3.png" width="33%" title="Two colours" />
+<img src="https://github.com/flexewebs/generativeart/blob/main/art/v12/1.png" width="33%" title="Two colours" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v12/2.png" width="33%" title="Two colours" /> <img src="https://github.com/flexewebs/generativeart/blob/main/art/v12/3.png" width="33%" title="Two colours" />
