@@ -3,9 +3,15 @@
 
 <head>
     <title>Funky squares</title>
+    <meta http-equiv="refresh" content="10"/>
     <style>
         * { margin: 0; padding: 0; }
-        .artCanvas { float: left; width: 100vw; height: 100vh; background: #16161d; }
+        @keyframes fadeIn {
+            0% {opacity:0.7;}
+            50% {opacity:1;}
+            100% {opacity:0.7;}
+        }
+        .artCanvas { float: left; width: 100vw; height: 100vh; background: #16161d; animation: fadeIn 10s; -webkit-animation: fadeIn 10s; -moz-animation: fadeIn 10s; -o-animation: fadeIn 10s; -ms-animation: fadeIn 10s; }
         .slot { float: left; width: 10vh; height: 10vh; margin: 0; padding: 0; }         
         .circle { border-radius: 50%; }
     </style>
@@ -22,7 +28,8 @@
                                         3 => array("#384085", "#04A7D0", "#A6D2C8", "#F8EDE0", "#FEF6E3", "#FFCBBF"), // Mixed pallette                            
                                         4 => array("#405CD6", "#4D81DA", "#5BA8E1", "#65C3E5", "#6ACDEB"), // All blue
                                         5 => array("#0C0727", "#F7BB13", "#EE5698", "#7EC064", "#D2ACDC", "#FBA305", "#E14699", "#36A86C", "#DE5111", "#CF297B", "#E85A23", "#C0221A", "#002970", "#E89915", "#FE5FB0"),
-                                        6 => array("#1D1E3B", "#DB9471", "#42BFD3", "#2256A1", "#207DC7"),                                        
+                                        6 => array("#1D1E3B", "#DB9471", "#42BFD3", "#2256A1", "#207DC7"),    
+                                        7 => array("#25251C", "#E1BE57", "#256FB0", "#50B2A3", "#CC3A0A"),                                    
                                     );
 
                 // Colour schemes to use 
