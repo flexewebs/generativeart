@@ -3,14 +3,9 @@
 
 <head>
     <title>Funky squares</title>
-    <meta http-equiv="refresh" content="10"/>
+    <meta http-equiv="refresh" content="3"/>
     <style>
         * { margin: 0; padding: 0; }
-        @keyframes fadeIn {
-            0% {opacity:0.7;}
-            50% {opacity:1;}
-            100% {opacity:0.7;}
-        }
         .artCanvas { float: left; width: 100vw; height: 100vh; background: #16161d; animation: fadeIn 10s; -webkit-animation: fadeIn 10s; -moz-animation: fadeIn 10s; -o-animation: fadeIn 10s; -ms-animation: fadeIn 10s; }
         .slot { float: left; width: 10vh; height: 10vh; margin: 0; padding: 0; }         
         .circle { border-radius: 50%; }
@@ -29,7 +24,8 @@
                                         4 => array("#405CD6", "#4D81DA", "#5BA8E1", "#65C3E5", "#6ACDEB"), // All blue
                                         5 => array("#0C0727", "#F7BB13", "#EE5698", "#7EC064", "#D2ACDC", "#FBA305", "#E14699", "#36A86C", "#DE5111", "#CF297B", "#E85A23", "#C0221A", "#002970", "#E89915", "#FE5FB0"),
                                         6 => array("#1D1E3B", "#DB9471", "#42BFD3", "#2256A1", "#207DC7"),    
-                                        7 => array("#25251C", "#E1BE57", "#256FB0", "#50B2A3", "#CC3A0A"),                                    
+                                        7 => array("#25251C", "#E1BE57", "#256FB0", "#50B2A3", "#CC3A0A"),   
+                                        8 => array("#254C91", "#C0D2A1", "#61B8CB", "#1C2223", "#2976DF"), // Starry night from Van Gogh                                 
                                     );
 
                 // Colour schemes to use 
@@ -41,7 +37,7 @@
                 }
                 else 
                 { 
-                    $scheme = 0;
+                    $scheme = 2;
                 }    
 
                 // Number of slots
@@ -61,17 +57,17 @@
                     }
 
                     // Assign slot and blob colour
-                    $squareColour = $colourSchemes[$scheme][rand(0,$totalColours)];
+                    $slotColour = $colourSchemes[$scheme][rand(0,$totalColours)];
                     $blobColour = $colourSchemes[$scheme][rand(0,$totalColours)];
 
                     // Make sure blob is of a different colour from square
-                    if($squareColour==$blobColour) {            
-                        while($squareColour==$blobColour) {
+                    if($slotColour==$blobColour) {            
+                        while($slotColour==$blobColour) {
                             $blobColour = $colourSchemes[$scheme][rand(0,$totalColours)];                
                         }
                     }
                     ?>
-                    <div class="slot <?php echo $circle;?>" style="background: <?php echo $squareColour;?>">
+                    <div class="slot <?php echo $circle;?>" style="background: <?php echo $slotColour;?>">
                         <?php echo makeBlob($blobColour);?>
                     </div>
                     <?php

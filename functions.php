@@ -1,7 +1,7 @@
 <?php 
 // Creates an SVG blob
 function makeBlob($color, $width=200, $height=200) { 
-    $blobPosition = array(70, 90, 110);
+    $blobPosition = array(10, 30, 50, 70, 90, 110, 130, 150, 170);
     $totalPositions = count($blobPosition)-1;
     $startingPosition = rand(0,$totalPositions);    
     ?>    
